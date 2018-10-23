@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Navigator</title>
+  <meta charset="utf-8">
+  <script src="libs/easystar-0.4.3.min.js"></script>
+  <script src="libs/jquery-3.3.1.min.js"></script>
+<script src="places.js"></script>
+<script src="nav.js"></script>
+<style>
+.key1{ color:green}
+.key2{color:red}
+.key3{color:#23e758}
+</style>
+</head>
+<body>
+<div id="ins">
+	<div id="from">
+		<label for="buildSelF">Input your current building:</label>
+		<select id="buildSelF" class="selFrom">
+			<option value="1">Manual</option>
+			<option value="2">YPAS</option>
+			<option value="3">Meyers YPAS annex</option>
+		</select>
+		<label for="floorSelF">Input your current floor:</label>
+		<select id="floorSelF" class="selFrom">
+			<option value="1">1st</option>
+			<option value="2">2nd</option>
+			<option value="3">3rd</option>
+		</select>
+		<div id="spefLoc"></div>
+	</div>
+	<div id="to">
+		
+	</div>
+	<button id="go"onclick="go()">Go!</button>
+	<p id="key"></p>
+</div>
+
+ <!--<canvas id="map" style="width:100%;height:100%"></canvas>-->
+ <div id="map" style="width:100%;height:100%">
+	<script>
+     setUp();
+    </script>
+ </div>
+  </body>
+</html>      
+</body>
+</html>
+

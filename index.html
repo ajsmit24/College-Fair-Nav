@@ -7,14 +7,12 @@
   <script src="libs/jquery-3.3.1.min.js"></script>
 <script src="places.js"></script>
 <script src="nav.js"></script>
-<style>
-.key1{ color:green}
-.key2{color:red}
-.key3{color:#23e758}
-</style>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div id="ins">
+	<div class="head hundX">
+	<div class="right title">Manual Maps</div>
 	<div id="from">
 		<label for="buildSelF">Input your current building:</label>
 		<select id="buildSelF" class="selFrom">
@@ -33,12 +31,14 @@
 	<div id="to">
 		
 	</div>
-	<button id="go"onclick="go()">Go!</button>
-	<p id="key"></p>
+	<button id="go"onclick="go()" class="button">Go!</button>
+	</div>
+	<div class="container center">
+	<div id="key"></div></div>
 </div>
 
  <!--<canvas id="map" style="width:100%;height:100%"></canvas>-->
- <div id="map" style="width:100%;height:100%">
+ <div id="map" class="container center"style="width:100%;height:100%">
 	<script>
      setUp();
     </script>

@@ -148,7 +148,7 @@ function go(){
 	lastDelt[1]=parseInt(holder[0].substring(2,3));
 	//doShifts(lastDelt[0],lastDelt[1]);
 	map=setUpMaze(points,23,25);
-	$("#key").replaceWith("<p id='key'><span class='key1'>Your location </span><span class='key2'>Your destination </span><span class='key3'>Your path</span></p>");
+	$("#key").replaceWith("<div id='key'class='info'><span class='key1'>Your location </span><span class='key2'>Your destination </span><span class='key3'>Your path</span></div>");
 		mapHTML(map);
 	getPath(map,froLoc[0],froLoc[1],to[0],to[1],function(data){
 		drawPath(data);

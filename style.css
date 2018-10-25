@@ -1,0 +1,51 @@
+.key1{ color:green}
+.key2{color:red}
+.key3{color:#23e758}
+
+/*media tags needed*/
+
+.head{
+	background-color:#8b3232;
+	color:black;
+	padding:10px;
+}
+.hundX{
+	width:100%
+}
+.right{
+	position:absolute;
+	right:1.33em
+}
+.title{
+	color:white;
+	font-size:4em
+}
+.button{
+	border-radius:5px;
+	border:solid 2px #580000;
+	background-color:white;
+	color:black;
+}
+.info{
+	background-color:#f6efef ;
+	border:solid 2px #580000;
+	color:black;
+	display: inline-block;
+	margin:5px;
+	padding:5px;
+}
+#StepStep{	
+	background-color:#8b3232;
+	color:black;
+	padding:10px;
+	text-align:center;
+}
+.container{
+	display:flex;
+}
+.center{
+	justify-content:center;
+}
+#map{
+	padding-bottom:10px
+}
